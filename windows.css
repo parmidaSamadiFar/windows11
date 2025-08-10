@@ -1,0 +1,18 @@
+body {
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+}
+
+.window {
+  height: 610px;
+  /* border: 1px solid #ccc; */
+  background: url(img/windows.png) no-repeat;
+  background-size: 100% 100%;
+}
+.footer {
+  height: 50px;
+  border: 1px solid #ccc;
+  background: url(img/footer.png) no-repeat;
+  background-size: 100% 100%;
+}
