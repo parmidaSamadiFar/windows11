@@ -99,14 +99,12 @@ body {
 }
 .all > .footer > .center > div:hover {opacity: 0.3;}
 .all > .footer > .center > .search {width: 200px;height: 30px;margin-top: 5px;border-radius: 42px;opacity: 0.4;}
-
 .all > .footer > .center > .start {background: url(img/start.png) no-repeat ;  background-size: 100% 100%;}
 .all > .footer > .center > .search {background:rgba(200, 195, 195, 0.705) url(img/search.png) no-repeat 5px 5px;  background-size: 10% 60%;}
 .all > .footer > .center > .desktop {background: url(img/desktop.png) no-repeat ;  background-size: 100% 100%;}
 .all > .footer > .center > .fireFox {background: url(img/fireFox.png)no-repeat ;  background-size: 100% 100%; }
 .all > .footer > .center > .vsCode {background: url(img/vsCode.png)no-repeat ;  background-size: 100% 100%;}
 .all > .footer > .center > .copilot {background: url(img/copilot.png) no-repeat ;  background-size: 100% 100%;}
-
 .all > .footer > .right {
   display: flex;
   flex-flow: row-reverse;
