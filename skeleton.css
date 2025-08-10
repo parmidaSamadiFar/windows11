@@ -1,5 +1,45 @@
-body{
-    margin: 0;
-    padding: 0;
-    direction: rtl;
+body {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.all {
+  /* border: 1px solid #ccc; */
+  width: 100%;
+  height: 650px;
+  background-color: black;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.all > .window {
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 610px;
+  background: url(img/windows.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.all > .window > #thisPc,
+.all > .window > #recycleBin {
+  border-radius: 3px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 3px;
+  cursor: pointer;
+}
+.all > .window > #thisPc{left: 7px;}
+.all > .window > #recycleBin{left: 82px;}
+
+.all > .window > #thisPc:hover,
+.all > .window > #recycleBin:hover {background-color: rgba(128, 128, 128, 0.468);}
+
+.all > .footer {
+  /* border: 1px solid #ccc; */
+  width: 100%;
+  height: 40px;
+  background: url(img/footer.png) no-repeat;
+  background-size: 100% 100%;
 }
