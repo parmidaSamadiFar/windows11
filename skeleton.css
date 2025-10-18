@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   direction: rtl;
+  white-space: nowrap;
 }
 /* window */
 .all {
@@ -12,7 +13,7 @@ body {
   display: flex;
   flex-flow: column;
   align-items: center;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .all > .window {
   border: 1px solid #ccc;
@@ -88,9 +89,9 @@ body {
   transition: 0.5s;
   margin-top: 5px;
 }
-.all > .footer > .center > div:hover {opacity: 0.5;}
+/* .all > .footer > .center > div:hover {opacity: 0.5;} */
 .all > .footer > .center > .desktop {background: url(img/desktop.png) no-repeat 0px 3px;  background-size: 80% 80%;}
-.all > .footer > .center > .fireFox {background: url(img/fireFox.png)no-repeat -3px -2px;  background-size: 130% 110%; }
+
 .all > .footer > .center > .vsCode {background: url(img/vsCode.png)no-repeat 0px 3px;  background-size: 80% 80%;}
 .all > .footer > .center > .copilot {background: url(img/copilot.png) no-repeat ;  background-size: 100% 100%;}
 .all > .footer > .right {

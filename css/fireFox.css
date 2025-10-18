@@ -1,0 +1,192 @@
+.all > .footer > .center > #fireFox {
+  background: url(../img/fireFox.png) no-repeat -7px -2px;
+  background-size: 130% 110%;
+  position: relative;
+  transition: 0.7s;
+}
+.all > .footer > .center > #fireFox > span {
+  color: aliceblue;
+  background: black;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  bottom: 50px;
+  opacity: 0;
+  visibility: hidden;
+}
+.all > .footer > .center > #fireFox:hover > span {
+  opacity: 1;
+  visibility: visible;
+}
+/* رویداد بعد از دابل کلیک */
+
+.all > .footer > .center > #fireFox > .fireFoxList {
+  width: 1300px;
+  height: 615px;
+  background: url(../img/bg/1.png);
+  position: absolute;
+  top: -620px;
+  left: -735px;
+  opacity: 0;
+  visibility: hidden;
+}
+.all > .footer > .center > #fireFox > .fireFoxList > .holders {
+  width: 100%;
+  /* height: 20px; */
+  /* border: 1px solid red; */
+  display: flex;
+  flex-flow: row-reverse nowrap;
+}
+.all > .footer > .center > #fireFox > .fireFoxList > .holders > .back,
+.forward,
+.refresh {
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  /* border: 1px solid black; */
+  margin-top: 10px;
+  cursor: pointer;
+}
+.all > .footer > .center > #fireFox > .fireFoxList > .holders > .back {
+  background: url(../img/start/33.png) no-repeat 10px 10px;
+  background-size: 50%;
+}
+.all > .footer > .center > #fireFox > .fireFoxList > .holders > .forward {
+  background: url(../img/start/333.png) no-repeat 10px 10px;
+  background-size: 50%;
+}
+.all > .footer > .center > #fireFox > .fireFoxList > .holders > .refresh {
+  background: url(../img/start/ref.png) no-repeat 10px 10px;
+  background-size: 50%;
+}
+.all > .footer > .center > #fireFox > .fireFoxList > .holders > .search {
+  width: 500px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 120px;
+  background: black;
+
+  border-radius: 5px;
+}
+.all
+  > .footer
+  > .center
+  > #fireFox
+  > .fireFoxList
+  > .holders
+  > .search
+  > input {
+  width: 100%;
+  height: 80%;
+  color: aliceblue;
+  direction: ltr;
+  background: transparent url(../img/firefox/googool.png) no-repeat 8px 5px;
+  background-size: 7%;
+  border: 0 none;
+  outline: 0 none;
+  text-indent: 50px;
+}
+.all > .footer > .center > #fireFox > .fireFoxList > .holders > .right {
+  width: 200px;
+  height: 80%;
+  /* background: red; */
+  display: flex;
+  flex-flow: row;
+  gap: 7px;
+  margin-left: 350px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.all
+  > .footer
+  > .center
+  > #fireFox
+  > .fireFoxList
+  > .holders
+  > .right
+  > div
+  > img {
+  width: 28px;
+  height: 28px;
+}
+/*  */
+.all > .footer > .center > #fireFox > .fireFoxList > .shortCut {
+  direction: rtl;
+}
+.all > .footer > .center > #fireFox > .fireFoxList > .shortCut > div {
+  height: 100%;
+  width: 100px;
+  text-align: left;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: aliceblue;
+}
+.all > .footer > .center > #fireFox > .fireFoxList > .logo {
+  width: 250px;
+  height: 80px;
+  position: absolute;
+  top: 200px;
+  right: 550px;
+}
+.all > .footer > .center > #fireFox > .fireFoxList > .mainSearch {
+  height: 50px;
+  width: 800px;
+  text-align: left;
+  border: 1px solid white;
+  border-radius: 8px;
+  background: grey;
+  color: aliceblue;
+  margin: 230px auto 20px;
+  cursor: pointer;
+}
+.all > .footer > .center > #fireFox > .fireFoxList > .mainSearch > input {
+  width: 100%;
+  height: 80%;
+  color: aliceblue;
+  direction: ltr;
+  background: url(../img/firefox/ff.png) no-repeat 8px 10px;
+  background-size: 30px;
+  border: 0 none;
+  outline: 0 none;
+  text-indent: 50px;
+}
+.all > .footer > .center > #fireFox > .fireFoxList > .it04 {
+  width: 60%;
+  margin: 10px auto;
+  /* background: red; */
+  height: 80px;
+  display: flex;
+  flex-flow: row;
+  gap: 50px;
+  justify-content: center;
+  color: aliceblue;
+  text-align: center;
+  line-height: 20px;
+}
+.all > .footer > .center > #fireFox > .fireFoxList > .it04 > div {
+  display: flex;
+  flex-flow: column;
+  background: grey;
+  height: 90%;
+  border-radius: 10px;
+  position: relative;
+}
+.all > .footer > .center > #fireFox > .fireFoxList > .it04 > div > img {
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+}
+.all > .footer > .center > #fireFox > .fireFoxList > .it04 > div > span {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+}
+.all > .footer > .center > #fireFox > .fireFoxList > .it05 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 90%;
+  left: 92%;
+  background: url(../img/firefox/kk.png) no-repeat 2px 2px;
+  background-size: 80%;
+}
